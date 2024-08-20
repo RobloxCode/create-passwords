@@ -3,6 +3,23 @@ body{
   background-color: rgb(64, 63, 63);
 }
 
+button{
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(216, 213, 213);
+}
+
+button:hover{
+  background-color: rgb(196, 191, 191);
+  transition: 0.15s;
+}
+
+button:active{
+  background-color: rgb(103, 100, 100);
+}
+
 .container-for-password-generator{
   margin-left: 470px;
   background-color: white;
